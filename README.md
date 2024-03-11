@@ -48,7 +48,7 @@ Search Fronte
 
 **Dependencies**
 
-        •	Flask: For building the web application.
+	•	Flask: For building the web application.
 	•	numpy: For numerical computing.
 	•	google-cloud-storage: For interacting with Google Cloud Storage.
 	•	pickle: For serializing and deserializing Python objects.
