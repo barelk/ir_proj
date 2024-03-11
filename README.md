@@ -1,6 +1,3 @@
-# ir_proj
-#Building a search engine for English Wikipedia
-**Project README**
 **Introduction
 This project is a search engine implemented in Python using Flask, designed to retrieve relevant documents based on user queries. It utilizes two major retrieval algorithms, BM25 and Cosine Similarity, to provide search results. The project also integrates with Google Cloud Platform (GCP) for storage and inverted index management.
 Code Structure**
