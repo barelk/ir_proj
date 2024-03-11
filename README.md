@@ -2,7 +2,7 @@
 
 **Introduction**
 
-This project is a search engine implemented in Python using Flask, designed to retrieve relevant documents based on string queries. It utilizes two major retrieval algorithms,such BM25 and Cosine Similarity, to provide search results. The project also integrates with Google Cloud Platform (GCP) for storage and inverted index management.
+This project is a search engine implemented in Python using Flask, designed to retrieve relevant documents based on string queries. It utilizes two major retrieval algorithms,such as BM25 and Cosine Similarity, to provide search results. The project also integrates with Google Cloud Platform (GCP) for storage and inverted index management.
 
 
 **Code Structure**
@@ -14,7 +14,7 @@ The project consists of several major components:
 
 		CosineSimilarity Class (CosineSimilarity.py): This class calculates cosine similarity between a query and documents, considering the vector representation of documents.
 
-		Search Fronted (search_frontend.py): The Flask application serves as the core of the search engine. It handles incoming HTTP requests and returns search results.
+		Search Frontend (search_frontend.py): The Flask application serves as the core of the search engine. It handles incoming HTTP requests and returns search results.
                 The application utilizes BM25 and CosineSimilarity classes for search operations.
 
 		Tokenizer (Tokenizer.py): This module provides tokenization capabilities for text processing. It is used for tokenizing queries and document text.
@@ -35,7 +35,7 @@ CosineSimilarity Class
 
 	•	__init__(self, index, bucket_name, doc_length, doc_vector_normalized, idf): Initializes the Cosine Similarity calculator with required parameters.
 	•	calculate_cosine_similarity(self, query, query_postinglist_dict, N=100): Computes cosine similarity scores between the query and documents.
-Search Fronte 
+Search Frontend 
 
 	•	search(): Handles the /search route for issuing search queries. It processes the query, calculates search scores using BM25 and Cosine Similarity, and returns the top-ranked documents.
 
