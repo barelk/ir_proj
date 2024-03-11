@@ -9,12 +9,20 @@ This project is a search engine implemented in Python using Flask, designed to r
 
 The project consists of several major components:
 
-		BM25 Class (BM25.py): This class implements the Best Match 25 algorithm for document retrieval. It calculates the BM25 score for documents based on query terms and document statistics.
-		CosineSimilarity Class (CosineSimilarity.py): This class calculates cosine similarity between a query and documents, considering the vector representation of documents.
-		Search Fronted (search_frontend.py): The Flask application serves as the core of the search engine. It handles incoming HTTP requests and returns search results. The application utilizes BM25 and CosineSimilarity classes for search operations.
-		Tokenizer (Tokenizer.py): This module provides tokenization capabilities for text processing. It is used for tokenizing queries and document text.
-		Inverted Index (inverted_index_gcp.py): This module manages the inverted index stored in Google Cloud Platform. It provides functionality for reading the index and associated metadata.
-		Search Backend (search_backend.py): This module contains utility functions for search operations, including merging search results and retrieving top-ranked documents.
+	•	BM25 Class (BM25.py): This class implements the Best Match 25 algorithm for document retrieval.
+                It calculates the BM25 score for documents based on query terms and document statistics.
+
+	•	CosineSimilarity Class (CosineSimilarity.py): This class calculates cosine similarity between a query and documents, considering the vector representation of documents.
+
+	•	Search Fronted (search_frontend.py): The Flask application serves as the core of the search engine. It handles incoming HTTP requests and returns search results.
+                The application utilizes BM25 and CosineSimilarity classes for search operations.
+
+	•	Tokenizer (Tokenizer.py): This module provides tokenization capabilities for text processing. It is used for tokenizing queries and document text.
+
+	•	Inverted Index (inverted_index_gcp.py): This module manages the inverted index stored in Google Cloud Platform. It provides functionality for reading the index and 
+                associated metadata.
+
+	•	Search Backend (search_backend.py): This module contains utility functions for search operations, including merging search results and retrieving top-ranked documents.
 
 
 **Functionality**
