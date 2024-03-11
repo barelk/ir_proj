@@ -40,12 +40,6 @@ Search Fronte
 	•	search(): Handles the /search route for issuing search queries. It processes the query, calculates search scores using BM25 and Cosine Similarity, and returns the top-ranked documents.
 
 
-**Usage**
-
-	•	To start the Flask application, run app.py. The server will be publicly available at http://YOUR_SERVER_DOMAIN:8080.
-	•	Issue search queries by navigating to /search route with a query parameter, e.g., http://YOUR_SERVER_DOMAIN:8080/search?query=hello+world.
-
-
 **Dependencies**
 
 	•	Flask: For building the web application.
